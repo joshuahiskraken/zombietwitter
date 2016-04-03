@@ -1,10 +1,15 @@
 # Be sure to restart your server when you modify this file.
+<<<<<<< HEAD
 #
+=======
+
+>>>>>>> db7e6ebab2eb56f7085a2f45fa829c541869f798
 # This file contains settings for ActionController::ParamsWrapper which
 # is enabled by default.
 
 # Enable parameter wrapping for JSON. You can disable this by setting :format to an empty array.
 ActiveSupport.on_load(:action_controller) do
+<<<<<<< HEAD
   wrap_parameters format: [:json]
 end
 
@@ -12,3 +17,12 @@ end
 ActiveSupport.on_load(:active_record) do
   self.include_root_in_json = false
 end
+=======
+  wrap_parameters format: [:json] if respond_to?(:wrap_parameters)
+end
+
+# To enable root element in JSON for ActiveRecord objects.
+# ActiveSupport.on_load(:active_record) do
+#  self.include_root_in_json = true
+# end
+>>>>>>> db7e6ebab2eb56f7085a2f45fa829c541869f798

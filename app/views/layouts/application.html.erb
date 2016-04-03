@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
   <title>TwitterForZombies</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
+=======
+  <title>Zombietwitter</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+>>>>>>> db7e6ebab2eb56f7085a2f45fa829c541869f798
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+<<<<<<< HEAD
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
@@ -21,6 +28,8 @@
   <div class="notice"><%= flash[:notice] %></div>
 <% end %>
 
+=======
+>>>>>>> db7e6ebab2eb56f7085a2f45fa829c541869f798
 <%= yield %>
 
 </body>

@@ -9,6 +9,7 @@
 # from scratch. The latter is a flawed and unsustainable approach (the more migrations
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
+<<<<<<< HEAD
 # It's strongly recommended to check this file into your version control system.
 
 ActiveRecord::Schema.define(:version => 20120904105320) do
@@ -26,5 +27,10 @@ ActiveRecord::Schema.define(:version => 20120904105320) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+=======
+# It's strongly recommended that you check this file into your version control system.
+
+ActiveRecord::Schema.define(version: 0) do
+>>>>>>> db7e6ebab2eb56f7085a2f45fa829c541869f798
 
 end
